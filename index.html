@@ -1,51 +1,217 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <title>Kaizen</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="styl.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
+
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6 col-md-6">
-                <img src="" alt="">
-                <h3>kaizen coworks.</h3>
+    
+        <section class="header">
 
-            </div>
-            <div class="col-lg-6 col-md-6">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                      <a class="navbar-brand" href="#">Home</a>
-                      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                        <li class="nav-item active">
-                          <a class="nav-link" href="#">About us</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">Gallery</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link " href="#" >Find us</a>
-                        </li>
-                      </ul>
-                      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Contact us</button>
-                     
+            <div class="container mt-2">
+
+                <div class="row" style="background-color: black;   ">
+                    <div class="col-lg-6 col-md-6 col-8">
+                        <div class="row" style=" margin-top: 1rem;">
+                            <img class="logo" src="logo.jpg" alt="">
+                            <h3 class="kaizen" style="font-size: 1.5rem !important">kaizen coworks.</h3>
+                        </div>
+
+
                     </div>
-                  </nav>
+                    <div class="col-lg-6 col-md-6 col-4">
+                        <nav class="navbar navbar-expand-lg bg-black navbar-dark">
+                            <button class="navbar-toggler navbar-default ml-auto" type="button" style="color: white;z-index: 1;"
+                                data-toggle="collapse" data-target="#navbarTogglerDemo01"
+                                aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
 
+                                <ul class="navbar-nav mr-auto mt- mt-lg-0">
+                                    <li class="nav-item active">
+                                        <a class="nav-link" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item active">
+                                        <a class="nav-link" href="#">About us</a>
+                                    </li>
+                                    <li class="nav-item active">
+                                        <a class="nav-link" href="#">Gallery</a>
+                                    </li>
+                                    <li class="nav-item active">
+                                        <a class="nav-link " href="#">Find us</a>
+                                    </li>
+                                </ul>
+                                <button class="btn btn-outline-success my-2 my-sm-0 " style="font-weight:900 ;" type="submit">Contact us</button>
+
+                            </div>
+                        </nav>
+
+                    </div>
+
+
+                </div>
             </div>
-           
+        </section>
+        <section class="main">
 
-        </div>
+            <div class="container">
+                <div class="row main-body flex-column-reverse flex-lg-row">
+                    <div class="col-lg-7 push-md-5">
+                        <h4 class="banner">Best coworking space in calicut.</h4>
+                        <h1>The industry is young. The future is bright.</h1>
+                        <br>
+                        <button class="explore btn  align-content-center mb-5">
+                            <div class="d-flex " style="flex-wrap:wrap ;padding-left: 4rem;">
+
+
+                                <div class="btnname">Explore
+                                </div>
+                                <div class="icon">
+                                    <span class="material-icons" style="padding-top: 0.2rem;
+                            margin-left: 1rem;">
+                                        arrow_forward
+                                    </span>
+
+                                </div>
+                            </div>
+                        </button>
+
+
+                    </div>
+                    <div class="col-lg-5 push-md-7 mt-5 mb-5">
+                        <div class="image">
+                            <img class="body-pic img-fluid" src="body pic.png" alt="">
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bottom-section">
+            <div class="container">
+                <div class=" ">
+                    <div class="col-lg-11 text-center ">
+                        <h2 class="get text-black mt-3">Get Your Space.</h2>
+                    </div>
+                    <div class="row flex-column-reverse flex-lg-row">
+                        <div class="col-lg-6" >
+                            <form action="" style="width: 100%;" class=" p-4 contact-form" id="contactForm">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="form-group">
+                                            <input name="name" type="text" class="form-control" placeholder="Name" />
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <input name="email" type="email" class="form-control" placeholder="Email" />
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <input name="mobile" type="digits" class="form-control"
+                                                placeholder="Mobile" />
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="form-group">
+                                            <textarea name="message" id="" cols="15" rows="7" class="form-control"
+                                                placeholder="Enter Your Text"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class=" d-flex justify-content-center">
+                                        <div class="form-group">
+                                            <input name="submit" id="submit" type="submit" value="Send Message"
+                                                class="btn btn-primary py-3 px-5" style="border-radius:40px" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+
+                        <div class="col-lg-6  align-items-center ">
+                            <div class="contact-section  ">
+                                <div class="contact-items ">
+                                    <div class="d-flex">
+                                        <div class="item-icon">
+                                            <img src="assets/Vector1.svg" alt=""  />
+                                        </div>
+                                        <p class="item-val  text">9012345670</p>
+                                    </div>
+                                </div>
+
+
+
+                                <div class="contact-items mb-3">
+                                    <div class="d-flex">
+                                        <div class="item-icon">
+                                            <img src="assets/Vector.svg" alt="" style="width: 100%" />
+                                        </div>
+                                        <a class="item-val  text"
+                                            href="mailto:kaizencoworking@gmail.com">kaizencoworking@gmail.com</a>
+                                    </div>
+                                </div>
+
+                                <div class="contact-items mb-3">
+                                    <div class="d-flex  ">
+                                        <div class="item-icon">
+                                            <img src="assets/place_black_24dp.svg" alt="" style="width: 100%" />
+                                        </div>
+                                        <p class=" text-black  text">
+                                            <a class=""
+                                                href="https://goo.gl/maps/qbVXB8ihBACui5qr6">
+                                                58/1617, south
+                                                beach,kuttichira <br> calicut, Kerala
+                                                673001 <br> India</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
     </div>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    <footer>
+            <div class="container">
+            <div class="row ">
+                <div class="col-12 text-center mt-2 ">
+                    <p>Copyright © 2021.All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
+
+    
+    <script src="validate.js"></script>
 
 </body>
+
 </html>

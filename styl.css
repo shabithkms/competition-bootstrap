@@ -1,0 +1,178 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    background-color: black;
+}
+
+.logo{
+    Width: 35.88px;
+
+Height :35.88px;
+top :16px;
+left :82px
+}
+.error{
+    color: red;
+}
+body{
+    font-family: Montserrat;
+    width: 100%;
+    overflow-x: hidden;
+    /* background-color: red; */
+}
+.navbar{
+    /* padding: 0% !important; */
+    justify-content: space-between;
+
+}
+.main{
+    background: #2D2D2D;
+
+}
+/* @media(max-width: 568px) {
+    .main{
+        align-items: center;
+       
+    }
+    
+    
+} */
+.banner{
+    margin-top: 8rem;
+}
+.navbar-toggler span{
+    color: #FAC301 !important;
+    display: block;
+    /* background-color: #FAC301 !important; */
+}
+.image img{
+    
+border-radius: 14px;
+padding: 1rem;
+
+}
+h4{
+    color: white;
+   
+
+left: 82px;
+top: 278px;
+border-radius: nullpx;
+
+
+
+
+}
+h1{
+    color: #FAC301;
+   
+left: 82px;
+top: 336px;
+border-radius: nullpx;
+letter-spacing: 0em;
+text-align: left;
+
+Font-style: Bold;
+Font-size: 52px;
+font-weight: 800;
+
+
+}
+.btn-outline-success{
+    /* display: flex; */
+    /* width: fit-content; */
+    justify-content: space-between;
+    color: white;
+   
+left: 82px;
+top: 547px;
+border-radius: 34px;
+border: 1px solid #FAC301 ;
+background: #FAC301;
+color: black;
+/* font-weight: 50; */
+
+}
+.btn-outline-success :hover{
+    background-color: #FAC301 !important;
+}
+.explore{
+    justify-content: space-between;
+    color: white;
+    height: 57px;
+width: 227px;
+left: 82px;
+top: 547px;
+
+border-radius: 34px;
+border: 3px solid #FAC301 ;
+
+
+}
+.navbar li a{
+    padding: 0.6;
+    
+    font-size: 20px;
+    font-weight: 100 ;
+}
+span{
+    /* padding-top: .5rem; */
+}
+.kaizen{
+    color: #FAC301;
+
+}
+a {
+    color: white;
+    text-decoration: none !important;
+    background-color: transparent;
+   
+
+}
+.bottom-section a{
+    color: black;
+    text-decoration: none;
+    background-color: transparent;
+   
+}
+.bottom-section{
+    background: #E4E4E4;
+
+}
+#submit{
+    background: #FAC301;
+  
+    font-weight: 700;
+    border: none;
+    outline: none;
+}
+.get{
+   color: #2D2D2D;
+   font-weight: 700;
+   
+}
+.form-control{
+    box-shadow: 5px 10px 8px #888888;
+}
+.text{
+    font-size: 24px;
+    font-weight: 900;
+    
+}
+footer{
+    background: #2D2D2D;
+    color: #E4E4E4;
+    font-size: 10px;
+    width: 100%;
+}
+.item-icon{
+    width: 20px;
+    height: 20px;
+}
